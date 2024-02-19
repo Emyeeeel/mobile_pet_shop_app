@@ -101,12 +101,10 @@ class ContainerWidget extends StatelessWidget {
             GestureDetector(
               onTap: () {
                 onTap();
-                // Check if the currentModelId is   2
                 int currentModelId =
                     Provider.of<LandingPageProvider>(context, listen: false)
                         .currentModelId;
                 if (currentModelId == 2) {
-                  // Navigate to the CatalogPage
                   Navigator.push(
                     context,
                     MaterialPageRoute(

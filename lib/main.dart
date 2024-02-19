@@ -1,6 +1,7 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:pet_shop_app/screens/catalog.dart';
 import 'package:provider/provider.dart';
 
 import 'providers/landing_page_provider.dart';
@@ -30,7 +31,7 @@ class MyApp extends StatelessWidget {
       theme: ThemeData(
         primaryColor: const Color(0xFFFFFFFF),
       ),
-      home: LandingPage(),
+      home: const CatalogPage(),
     );
   }
 }
