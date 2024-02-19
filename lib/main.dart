@@ -1,6 +1,7 @@
 import 'package:device_preview/device_preview.dart';
 import 'package:flutter/foundation.dart';
 import 'package:flutter/material.dart';
+import 'package:pet_shop_app/screens/catalog.dart';
 
 import 'screens/landing_page.dart';
 
